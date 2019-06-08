@@ -19,8 +19,6 @@ pod install
 - Build & Run
 
 
-## Screenshots:
-
 
 ## Feature list:
 - [x] Observing all coins on market
