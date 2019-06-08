@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A468EA181FD18D7A0083AC99 /* CoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A468EA171FD18D7A0083AC99 /* CoinCell.swift */; };
+		A468EA1A1FD18E1A0083AC99 /* TickerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A468EA191FD18E1A0083AC99 /* TickerData.swift */; };
+		A4AE45AA1FD01F2F005E2D27 /* PoloConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE45A91FD01F2F005E2D27 /* PoloConnection.swift */; };
+		A4CAD18B2145767100FF1616 /* CandleMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CAD18A2145767100FF1616 /* CandleMarker.swift */; };
+		A4CAD18D2145769B00FF1616 /* CandleMarker.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4CAD18C2145769B00FF1616 /* CandleMarker.xib */; };
+		A4E44A2320DE460B00888C6A /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E44A2220DE460B00888C6A /* Coin.swift */; };
+		A4E44A2520DE4A8500888C6A /* CoinsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E44A2420DE4A8500888C6A /* CoinsManager.swift */; };
+		A4E44A2720DE615000888C6A /* CoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E44A2620DE615000888C6A /* CoinViewController.swift */; };
+		A4E44A2920DF087600888C6A /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E44A2820DF087600888C6A /* OrderTableViewCell.swift */; };
+		A4E44A2B20DFDAEB00888C6A /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E44A2A20DFDAEB00888C6A /* Order.swift */; };
+		A4E44A2D20DFF24100888C6A /* OperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E44A2C20DFF24100888C6A /* OperationViewController.swift */; };
+		A4FA7B041FCEF2D1004487AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FA7B031FCEF2D1004487AE /* AppDelegate.swift */; };
+		A4FA7B061FCEF2D1004487AE /* CoinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FA7B051FCEF2D1004487AE /* CoinsViewController.swift */; };
+		A4FA7B091FCEF2D1004487AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FA7B071FCEF2D1004487AE /* Main.storyboard */; };
+		A4FA7B0E1FCEF2D1004487AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FA7B0D1FCEF2D1004487AE /* Assets.xcassets */; };
+		A4FA7B111FCEF2D1004487AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FA7B0F1FCEF2D1004487AE /* LaunchScreen.storyboard */; };
+		F37A11FFE5EA0239F7DED840 /* Pods_PoloTicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F42DE7552D9F89971032317 /* Pods_PoloTicker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A4E44A1E20DC41E500888C6A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F42DE7552D9F89971032317 /* Pods_PoloTicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoloTicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A468EA171FD18D7A0083AC99 /* CoinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCell.swift; sourceTree = "<group>"; };
+		A468EA191FD18E1A0083AC99 /* TickerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerData.swift; sourceTree = "<group>"; };
+		A4AE45A91FD01F2F005E2D27 /* PoloConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoloConnection.swift; sourceTree = "<group>"; };
+		A4CAD18A2145767100FF1616 /* CandleMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleMarker.swift; sourceTree = "<group>"; };
+		A4CAD18C2145769B00FF1616 /* CandleMarker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CandleMarker.xib; sourceTree = "<group>"; };
+		A4E44A0A20DC405000888C6A /* libapple_crypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libapple_crypto.tbd; path = usr/lib/libapple_crypto.tbd; sourceTree = SDKROOT; };
+		A4E44A2220DE460B00888C6A /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		A4E44A2420DE4A8500888C6A /* CoinsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsManager.swift; sourceTree = "<group>"; };
+		A4E44A2620DE615000888C6A /* CoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinViewController.swift; sourceTree = "<group>"; };
+		A4E44A2820DF087600888C6A /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		A4E44A2A20DFDAEB00888C6A /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		A4E44A2C20DFF24100888C6A /* OperationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationViewController.swift; sourceTree = "<group>"; };
+		A4FA7B001FCEF2D1004487AE /* PoloTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoloTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FA7B031FCEF2D1004487AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4FA7B051FCEF2D1004487AE /* CoinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsViewController.swift; sourceTree = "<group>"; };
+		A4FA7B081FCEF2D1004487AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4FA7B0D1FCEF2D1004487AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4FA7B101FCEF2D1004487AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4FA7B121FCEF2D1004487AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE3551AF7A912B1408D77956 /* Pods-PoloTicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoloTicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoloTicker/Pods-PoloTicker.release.xcconfig"; sourceTree = "<group>"; };
+		F06F756B90E293167B1A5DDE /* Pods-PoloTicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoloTicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PoloTicker/Pods-PoloTicker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4FA7AFD1FCEF2D1004487AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37A11FFE5EA0239F7DED840 /* Pods_PoloTicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F1874E2749A3718A0EB308F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4E44A0A20DC405000888C6A /* libapple_crypto.tbd */,
+				3F42DE7552D9F89971032317 /* Pods_PoloTicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4FA7AF71FCEF2D1004487AE = {
+			isa = PBXGroup;
+			children = (
+				A4FA7B021FCEF2D1004487AE /* PoloTicker */,
+				A4FA7B011FCEF2D1004487AE /* Products */,
+				B2D05D354E4805E1B32351C8 /* Pods */,
+				5F1874E2749A3718A0EB308F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4FA7B011FCEF2D1004487AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA7B001FCEF2D1004487AE /* PoloTicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4FA7B021FCEF2D1004487AE /* PoloTicker */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA7B031FCEF2D1004487AE /* AppDelegate.swift */,
+				A4FA7B051FCEF2D1004487AE /* CoinsViewController.swift */,
+				A4FA7B071FCEF2D1004487AE /* Main.storyboard */,
+				A4FA7B0D1FCEF2D1004487AE /* Assets.xcassets */,
+				A4FA7B0F1FCEF2D1004487AE /* LaunchScreen.storyboard */,
+				A4FA7B121FCEF2D1004487AE /* Info.plist */,
+				A4AE45A91FD01F2F005E2D27 /* PoloConnection.swift */,
+				A468EA171FD18D7A0083AC99 /* CoinCell.swift */,
+				A468EA191FD18E1A0083AC99 /* TickerData.swift */,
+				A4E44A2220DE460B00888C6A /* Coin.swift */,
+				A4E44A2420DE4A8500888C6A /* CoinsManager.swift */,
+				A4E44A2620DE615000888C6A /* CoinViewController.swift */,
+				A4E44A2820DF087600888C6A /* OrderTableViewCell.swift */,
+				A4E44A2A20DFDAEB00888C6A /* Order.swift */,
+				A4E44A2C20DFF24100888C6A /* OperationViewController.swift */,
+				A4CAD18A2145767100FF1616 /* CandleMarker.swift */,
+				A4CAD18C2145769B00FF1616 /* CandleMarker.xib */,
+			);
+			path = PoloTicker;
+			sourceTree = "<group>";
+		};
+		B2D05D354E4805E1B32351C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F06F756B90E293167B1A5DDE /* Pods-PoloTicker.debug.xcconfig */,
+				DE3551AF7A912B1408D77956 /* Pods-PoloTicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4FA7AFF1FCEF2D1004487AE /* PoloTicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FA7B2B1FCEF2D1004487AE /* Build configuration list for PBXNativeTarget "PoloTicker" */;
+			buildPhases = (
+				AD3A20AE304AC171834AE3C5 /* [CP] Check Pods Manifest.lock */,
+				A4FA7AFC1FCEF2D1004487AE /* Sources */,
+				A4FA7AFD1FCEF2D1004487AE /* Frameworks */,
+				A4FA7AFE1FCEF2D1004487AE /* Resources */,
+				64E97774F3C631C6A203F3A1 /* [CP] Embed Pods Frameworks */,
+				A4E44A1E20DC41E500888C6A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoloTicker;
+			productName = PoloTicker;
+			productReference = A4FA7B001FCEF2D1004487AE /* PoloTicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4FA7AF81FCEF2D1004487AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = qaze;
+				TargetAttributes = {
+					A4FA7AFF1FCEF2D1004487AE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A4FA7AFB1FCEF2D1004487AE /* Build configuration list for PBXProject "PoloTicker" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4FA7AF71FCEF2D1004487AE;
+			productRefGroup = A4FA7B011FCEF2D1004487AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4FA7AFF1FCEF2D1004487AE /* PoloTicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4FA7AFE1FCEF2D1004487AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CAD18D2145769B00FF1616 /* CandleMarker.xib in Resources */,
+				A4FA7B111FCEF2D1004487AE /* LaunchScreen.storyboard in Resources */,
+				A4FA7B0E1FCEF2D1004487AE /* Assets.xcassets in Resources */,
+				A4FA7B091FCEF2D1004487AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64E97774F3C631C6A203F3A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoloTicker/Pods-PoloTicker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityLogger/AlamofireNetworkActivityLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PoloTicker/Pods-PoloTicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD3A20AE304AC171834AE3C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoloTicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4FA7AFC1FCEF2D1004487AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FA7B061FCEF2D1004487AE /* CoinsViewController.swift in Sources */,
+				A4CAD18B2145767100FF1616 /* CandleMarker.swift in Sources */,
+				A4AE45AA1FD01F2F005E2D27 /* PoloConnection.swift in Sources */,
+				A4E44A2720DE615000888C6A /* CoinViewController.swift in Sources */,
+				A4E44A2B20DFDAEB00888C6A /* Order.swift in Sources */,
+				A4FA7B041FCEF2D1004487AE /* AppDelegate.swift in Sources */,
+				A4E44A2520DE4A8500888C6A /* CoinsManager.swift in Sources */,
+				A4E44A2920DF087600888C6A /* OrderTableViewCell.swift in Sources */,
+				A4E44A2D20DFF24100888C6A /* OperationViewController.swift in Sources */,
+				A468EA181FD18D7A0083AC99 /* CoinCell.swift in Sources */,
+				A468EA1A1FD18E1A0083AC99 /* TickerData.swift in Sources */,
+				A4E44A2320DE460B00888C6A /* Coin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4FA7B071FCEF2D1004487AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4FA7B081FCEF2D1004487AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4FA7B0F1FCEF2D1004487AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4FA7B101FCEF2D1004487AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4FA7B291FCEF2D1004487AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4FA7B2A1FCEF2D1004487AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4FA7B2C1FCEF2D1004487AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F06F756B90E293167B1A5DDE /* Pods-PoloTicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PoloTicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qaze.PoloTicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4FA7B2D1FCEF2D1004487AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3551AF7A912B1408D77956 /* Pods-PoloTicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PoloTicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qaze.PoloTicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4FA7AFB1FCEF2D1004487AE /* Build configuration list for PBXProject "PoloTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FA7B291FCEF2D1004487AE /* Debug */,
+				A4FA7B2A1FCEF2D1004487AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FA7B2B1FCEF2D1004487AE /* Build configuration list for PBXNativeTarget "PoloTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FA7B2C1FCEF2D1004487AE /* Debug */,
+				A4FA7B2D1FCEF2D1004487AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4FA7AF81FCEF2D1004487AE /* Project object */;
+}
